@@ -1,6 +1,9 @@
 # Fast Alloy
 ## Quick Titanium Alloy project generator using CoffeeScript, Jade and STSS
 
+### Warning:
+#### This is in a very early stage of development. Use at own risk
+
 ### Sub-generators
 - Create files using the provided sub-generators
     - MVC
