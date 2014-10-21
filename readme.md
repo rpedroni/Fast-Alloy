@@ -12,6 +12,15 @@
         - style.stss
     - Individual files (controller, view or style)
     
+### Usage
+
+#### Controller
+    yo fast-alloy:controller ControllerName
+Can generate files for a controller named 'ControllerName'. Optionally choose creating
+    - Script file (controller_name.coffee)
+    - View file (controller_name.jade)
+    - Style file (controller_name.stss)
+
 ### Roadmap
 - Generate files for
     - Widgets (complete stack inside app/widgets folder)

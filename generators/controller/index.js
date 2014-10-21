@@ -17,13 +17,12 @@ module.exports = generators.NamedBase.extend({
                 choices: [
                     { value: 0, name: 'Script file (.coffee)', checked: true },
                     { value: 1, name: 'View file (.jade)', checked: true },
-                    { value: 2, name: 'Style file (.tss)', checked: true }
+                    { value: 2, name: 'Style file (.stss)', checked: true }
                 ]
             }
         ];
 
         this.prompt(questions, function (answers) {
-            console.log(answers)
             this.createFileTypes = answers.files;
             done();
         }.bind(this));
