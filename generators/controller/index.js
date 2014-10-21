@@ -37,7 +37,7 @@ module.exports = generators.NamedBase.extend({
 
         var yo = this;
         function script() {
-            yo.template('_controller.coffee', 'app/controller/' + context.controllerFileName + '.coffee', context);
+            yo.template('_controller.coffee', 'app/controllers/' + context.controllerFileName + '.coffee', context);
         }
         function view() {
             yo.template('_view.jade', 'app/views/' + context.controllerFileName + '.jade', context);
