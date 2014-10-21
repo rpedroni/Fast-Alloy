@@ -1,0 +1,21 @@
+{
+  "name": "generator-fast-alloy",
+  "version": "0.1.0",
+  "description": "A quick setup for Titanium Alloy projects using CoffeScript, Jade and STSS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "titanium",
+    "alloy",
+    "coffeescript",
+    "jade",
+    "stss"
+  ],
+  "author": "Ricardo Pedroni",
+  "dependencies": {
+    "underscore.string": "^2.3.3",
+    "yeoman-generator": "^0.17.7"
+  }
+}
